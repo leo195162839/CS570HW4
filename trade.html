@@ -39,16 +39,16 @@
             var date = document.getElementById("date").value;
 
             if (name != "" && date  != "") {
-                window.alert("You card is overdraw!");
+                window.alert("unfortunately the person who own this spot just rejected your request.");
 
             } else if(name != "" && date  == "") {
-                window.alert("You have to enter security code!");
+                window.alert("You have to enter arriving time!");
 
             } else if(name == "" && date != "") {
-                window.alert("You have to enter card number!");
+                window.alert("You have to enter your name!");
 
             } else {
-                window.alert("unfortunately the person who own this spot just rejected your request.");
+                window.alert("You have to enter your name and arriving time.");
 
             }
         }
